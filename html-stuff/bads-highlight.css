@@ -1,0 +1,17 @@
+/* bads.tm rulz! 2017 */
+
+::selection {
+  background: #FFBE02; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFBE02; /* Gecko Browsers */
+}
+a.nlg {
+	  color: #9e9e9e;
+}
+a.nlg::selection {
+  background: #EF013F; /* WebKit/Blink Browsers */
+}
+a.nlg::-moz-selection {
+  background: #EF013F; /* Gecko Browsers */
+}

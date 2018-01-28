@@ -1,0 +1,59 @@
+/*
+cursor-swine
+by bads.tm
+*/
+
+/* file list
+cursor: url('swine-cursor-normal.png'), default
+
+cursor: url('swine-cursor-yellow.png'), pointer;
+cursor: url('swine-cursor-yellow.png'), hand;
+
+cursor: url('swine-block.png'), not-allowed;
+
+cursor: url('swine-crosshair.png'), crosshair;
+cursor: url('swine-rotation.png'), move;
+cursor: url('swine-pnt-r.png'), e-resize;
+
+*/
+
+/* this will make so it is default on anything */
+*{
+	cursor: url('swine-cursor-normal.png'), default;
+}
+
+/* links */
+
+a:hover {
+cursor: url('swine-cursor-yellow.png'), pointer;
+cursor: url('swine-cursor-yellow.png'), hand;
+}
+
+/* disabled */
+button[disabled],html input[disabled] {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+input[type=radio][disabled],input[type=checkbox][disabled],input[type=radio].disabled,input[type=checkbox].disabled,fieldset[disabled] input[type=radio],fieldset[disabled] input[type=checkbox] {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+.btn-default.disabled,.btn-default[disabled],fieldset[disabled] .btn-default,.btn-default.disabled:hover,.btn-default[disabled]:hover,fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus,.btn-default[disabled]:focus,fieldset[disabled] .btn-default:focus,.btn-default.disabled:active,.btn-default[disabled]:active,fieldset[disabled] .btn-default:active,.btn-default.disabled.active,.btn-default[disabled].active,fieldset[disabled] .btn-default.active {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+.btn.disabled,.btn[disabled],fieldset[disabled] .btn {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+.radio.disabled label,.checkbox.disabled label,fieldset[disabled] .radio label,fieldset[disabled] .checkbox label {
+cursor: url('swine-block.png'), not-allowed;
+}
+
+.radio-inline.disabled,.checkbox-inline.disabled,fieldset[disabled] .radio-inline,fieldset[disabled] .checkbox-inline {
+cursor: url('swine-block.png'), not-allowed;
+}
